@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,400;1,100&display=swap%27);
+
+body{
+    background: #301934;
+    overflow: hidden;
+}
+.header {
+    min-height: 100%;
+    width: 100%;
+    background: #301934;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 25px;
+    margin-left: -3%;
+}
+.header .links{
+    margin-top: 1%;
+}
+.header ul li {
+    font-family: Noto Sans;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.header ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.header ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.header ul li:hover ::after{
+    width: 100%;
+}
+
+
+.line{
+    border-bottom: 6px solid white;
+    width: 110%;
+    position: absolute;
+    margin-top: 0%;
+    left: -20;
+}
+
+.left{
+    width: 100%;
+    margin: 3% 0 0 -13%;
+}
+
+.left h1{
+    font-family: Noto Sans;
+    color: #DA70D6;
+    font-size: 140px;
+    font-weight: 800px;
+    left: -129px;
+    margin-top: -23px;
+    position: absolute;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg)
+}
+.left img{
+    margin-left: 32%;
+    position: absolute;
+    top: 70px;
+    width: 438px;
+    height: 439px;
+}
+.right {
+    width: 100%;
+    margin-left: 50%;
+ 
+}
+.right h1{
+    color: #DA70D6;
+    font-size: 42px;
+    margin-left: 2%;
+    font-family: Noto Sans;
+    top: 0px;
+}
+.right h2{
+    color: white;
+    font-size: 42px;
+    margin-left: 2%;
+    font-family: Noto Sans;
+    margin-top: -3.5%;
+
+}
+.right h3{
+    color: #DA70D6;
+    font-size: 42px;
+    margin-left: 2%;
+    font-family: Noto Sans;
+
+    margin-top: -3.5%;
+
+}
+.million {
+    margin-top: -2.8%;
+    margin-left: 35%;
+
+}
+.million .statement h1{
+    color: #DA70D6;
+    font-family: Noto Sans;
+    font-size: 50px;
+    text-shadow: -4px -1px  white;
+    margin-top: 5%;
+    margin-left: -24.2%;
+}
+.million .icons .fa-brands{
+    margin-top: -13%;
+    position: absolute;
+    width: 3%;
+    margin-left: 8%;
+    color: white;
+
+}
+.million .icons .fb{
+    margin-right: 5%;
+    font-size: 17px;
+}
+.million .icons .insta{
+    font-size: 17px;
+}
+.shapeone {
+    border: 5px solid white;
+    background-color: none;
+    height: 200px;
+    border-radius:50%;
+    width: 200px;
+    margin-top: -4%;
+    margin-left: -38%;
+    position: absolute;
+}
+.shapetwo {
+    border: 5px solid white;
+    background-color: none;
+    height: 200px;
+    border-radius:50%;
+    width: 200px;
+    margin-top: -6%;
+    margin-left: -44%;
+    position: absolute;
+}
+.shapethree {
+    border: 5px solid white;
+    background-color: none;
+    height: 200px;
+    border-radius:50%;
+    width: 200px;
+    margin-top: -8%;
+    margin-left: -42.6%;
+    position: absolute;
+}
+.shapefour {
+    border: 5px solid white;
+    background-color: none;
+    height: 200px;
+    border-radius:50%;
+    width: 200px;
+    margin-top: -4%;
+    margin-left: 52%;
+    position: absolute;
+}
+.shapefive {
+    border: 5px solid white;
+    background-color: none;
+    height: 200px;
+    border-radius:50%;
+    width: 200px;
+    margin-top: -6%;
+    margin-left: 57%;
+    position: absolute;
+}
+.shapesix {
+    border: 5px solid white;
+    background-color: none;
+    height: 200px;
+    border-radius:50%;
+    width: 200px;
+    margin-top: -8%;
+    margin-left: 55.6%;
+    position: absolute;
+}
+.circleshome img{
+    margin-left: 22.5%;
+    margin-top: 32%;
+    position: absolute;
+    top: 70px;
+    width: 420px;
+    height: 83px;
+    
+
+}
